@@ -1,78 +1,104 @@
 <p align="left"><img src="https://cdn-images-1.medium.com/max/184/1*2GDcaeYIx_bQAZLxWM4PsQ@2x.png"></p>
 
-# __ih_datamadpt0923_project_m2__
+## **Ironhack Data PT MAD - Project Module 2**
 
-![Image](https://github.com/ih-datapt-mad/ih_datamadpt0923_project_m2/blob/main/images/visuals.jpg)
+This README file includes the details of the repository elements required for the module 2 project within Data Analytics Bootcamp in Ironhack Madrid.
+The project consists of creating a dashboad data visualization that shows volcano activity from Holocene period and detail of the most active volcanic countries. 
 
-Data analytics is oftentimes referred to as business intelligence, BI development, or product analytics. However, that is just the tip of the iceberg since the data analytics process includes activities such as data formation/creation, data cleansing, exploratory data analysis (especially this part), feature engineering, and interpretation of suggestions/predictions/results derived from advanced modelling analysis (i.e.: Machine Learning).
+**Data**
 
-For this project you will perform some of these activities in order to analyse a __dataset of your interest__.
+- CSV with the dataset to visualize (located in the data folder) 
+
+**Resources in this repository**
+
+This repository will include the following elements (apart from the ones defined in **Data**): 
+
+- Data model of dataset(located in main resources folder)
+- Mockup of the visual dashboard (located in main resources folder)
+- Link to the Tableau Public dashboard in the main.txt file 
+
+```
+
+📁 Folder structure
+└── project
+    ├── README.md
+    ├──.gitignore    
+    ├── main.txt
+    ├── modules
+    │   ├── .env
+    │   ├── Mockup.pdf
+    │   ├── Data model.png
+    └── data
+        ├── database.csv
+
+```
+
+💥**Technology stack**
+
+Tableau Public.
+
+👀**Context**
+
+This repository is the final project for Module 1 project for the Part Time Data Analytics Bootcamp in November 2023, which had the following requirements: 
+
+Challenge 1: BI Report/Dashboard
+
+BI Reports and Dashboards are powerful tools for communicating important information at-a-glance. The goal of this challenge is to build a BI Report/Dashboard using a dataset of your choice. Bear in mind the purpose of the report and build a normalized model that fits your visualization requeriments and interactivity performance.
+
+You may use either Tableau or Power BI as your main tool for creating your reporting app. There are not restictions about the data source location or format (local drive, database, multiformat, etc.).
+
+A BI Report/Dashboard is not exactly a sequential set of descriptive charts. Instead, a BI Report/Dashboard should be a single interactive interface built around a specific objetive and which components are logically arranged in order to provide data relevant insights effectively.
+
+💣 **Reporting Architecture**
+
+1. Data Extraction and Cleaning:
+
+Imported the dataset from Kaggle into Tableau.
+Conducted a thorough cleaning process to handle missing values, outliers, and inconsistencies.
+
+2. Data Exploration:
+
+Utilized Tableau's exploratory data analysis features to understand the distribution and patterns within the dataset.
+Identified key variables for analysis, such as eruption types, locations, and magnitudes.
+
+3. Dashboard Design:
+
+Designed an intuitive dashboard with a user-friendly interface for easy navigation.
+Incorporated interactive filters to allow users to explore specific time periods, regions, and eruption characteristics.
+
+4. Visual Elements:
+
+Implemented a variety of visual elements, including maps, charts, and graphs, to effectively communicate different aspects of volcanic eruptions.
+Utilized color coding to highlight critical information and trends.
+
+5. Functionalities:
+
+- Time Series Analysis:
+
+    Implemented a time slider to visualize volcanic activities over different time periods.
+    Included a dynamic timeline chart to display the frequency of eruptions.
+
+- Geospatial Mapping:
+
+    Integrated an interactive map to display the geographical distribution of volcanic eruptions.
+    Users can zoom in on specific regions and click on markers for detailed information.
+
+- Eruption Characteristics:
+
+    Created charts to showcase the distribution of eruption types, magnitudes, and durations.
+
+- Impact Analysis:
+
+    Visualized the impact of eruptions by incorporating charts depicting casualties, damage, and associated events.
+
+💩 **ToDo**
+
+As next steps and continuous improvements: 
+
+- Improve data granularity and add more insightful visualizations.
 
 
----
+💌 **Contact info**
 
-
-
-## **Deliverables:**
-
-A GitHub repository including:
-
-- A `data model` showing the table schemas and relations between them. You may use an application such as [DBdiagram](https://dbdiagram.io/).
-
-- A `functional design mockup` where the dashboard parts and functionalities must be represented. This document should be an starting point, meaning that the final product can be different. You may use any tool you want, however, it is highly recommended to use _ink and paper_!!!
-
-- A `BI Report/Dashboard` meeting the requeriments specified in __Challenge 1__. If you use __Tableau__ you need to include the _Tableau Public link_ to the reporting app. If you use __Power BI__ you need to include the `.pbix` file in your repo. 
-
-- A `README.md` file explaining the job done, the reporting app architecture and your main conclusions after the exploratory data analysis. You may find more info of how to build a README file [here](https://github.com/potacho/data-project-template/blob/master/README.md).
-
-
-
----
-
-
-
-## **Presentation:**
-
-- __Time:__ 5 minutes __sharp__.
-
-- __Content:__ eventhough the perfect report/dashboard should be selfexplanatory, you'll need to explain the reporting architecture and show its funtionalities. Also, you'll need to give actionable insights about your data and support your arguments using the report.
-
-<p align="center"><img src="https://media.giphy.com/media/1Ygis29YXMS35cW90I/giphy.gif"></p>
-
-
-> __IMPORTANT NOTE:__ You only need your BI Report/Dashboard for the presentation (i.e.: no Jupyter, no PowerPoint/Canva)
-
-
-
----
-
-
-
-## __Challenge 1: BI Report/Dashboard__
-
-BI Reports and Dashboards are powerful tools for communicating important information __at-a-glance__. The goal of this challenge is to build a BI Report/Dashboard using a dataset of your choice. Bear in mind the __purpose__ of the report and build a __normalized__ model that fits your visualization requeriments and interactivity performance.
-
-You may use either __Tableau__ or __Power BI__ as your main tool for creating your reporting app. There are not restictions about the data source location or format (local drive, database, multiformat, etc.).
-
-> __Tip:__ you should first consider which data and which indicators should be put on the BI Report/Dashboard. Then, decompose the key indicators from multiple dimensions. 
-
-<p align="center"><img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif"></p>
-
-
-A BI Report/Dashboard is not exactly a sequential set of descriptive charts. Instead, a BI Report/Dashboard should be __a single interactive interface built around a specific objetive and which components are logically arranged in order to provide data relevant insights effectively__.
-
-
-
----
-
-
-
-## **References:**
-
-- [Visual Analysis Best Practices](https://github.com/ih-datapt-mad/ih_datamadpt0923_project_m2/blob/main/images/visual-analysis-guidebook.pdf)
-
-- [Financial Times Visual Vocabulary](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary)
-
-- [Tableau](https://github.com/ih-datapt-mad/dataptmad0923_lessons/blob/main/m2/20240110_bi_tableau.md)
-
-- [Power BI](https://github.com/ih-datapt-mad/dataptmad0923_lessons/blob/main/m2/20240113_bi_pbi.md)
+Hi! I am Ana! 🎟
+Feel free to contact me at teamurjc@gmail.com. Happy to chat!
