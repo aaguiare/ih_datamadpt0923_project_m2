@@ -39,7 +39,7 @@ Tableau Public.
 
 👀**Context**
 
-This repository is the final project for Module 1 project for the Part Time Data Analytics Bootcamp in November 2023, which had the following requirements: 
+This repository is the final project for Module 2 project for the Part Time Data Analytics Bootcamp in November 2023, which had the following requirements: 
 
 Challenge 1: BI Report/Dashboard
 
